@@ -107,7 +107,7 @@
   },
   {
     "id": 10,
-    "title": "3piece-JazzParty!",
+    "title": "3piece-JazzParty！",
     "constants": {
       "oni": {
         "constant": 9.4,
@@ -517,7 +517,7 @@
   },
   {
     "id": 40,
-    "title": "My Soul,Your Beats!",
+    "title": "My Soul, Your Beats!",
     "constants": {
       "oni": {
         "constant": 8.0,
@@ -1639,7 +1639,7 @@
   },
   {
     "id": 112,
-    "title": "電車で電車で OPA!OPA!OPA! -GMT mashup-",
+    "title": "電車で電車でOPA！OPA！OPA！ ‐ GMT mashup ‐",
     "constants": {
       "oni": {
         "constant": 8.8,
@@ -1655,7 +1655,7 @@
   },
   {
     "id": 113,
-    "title": "電車で電車でGO!GO!GO!GC! -GMT remix-",
+    "title": "電車で電車でGO！GO！GO！GC！ ‐ GMT remix ‐",
     "constants": {
       "oni": {
         "constant": 8.4,
@@ -1873,7 +1873,7 @@
   },
   {
     "id": 128,
-    "title": "D's Adventure Note",
+    "title": "D′s Adventure Note",
     "constants": {
       "oni": {
         "constant": 10.3,
@@ -2053,7 +2053,7 @@
   },
   {
     "id": 140,
-    "title": "＋♂(プラス男子)",
+    "title": "+♂(プラス男子)",
     "constants": {
       "oni": {
         "constant": 7.4,
@@ -2211,7 +2211,7 @@
   },
   {
     "id": 151,
-    "title": "ファンタジーゾーン OPA-OPA! - GMT remix -",
+    "title": "ファンタジーゾーン OPA-OPA！ ‐ GMT remix ‐",
     "constants": {
       "oni": {
         "constant": 8.1,
@@ -2343,7 +2343,7 @@
   },
   {
     "id": 159,
-    "title": "Wings of Tomorrow(Tatsujin Mix)",
+    "title": "Wings of Tomorrow（Tatsujin Mix）",
     "constants": {
       "oni": {
         "constant": 9.8,
@@ -2401,7 +2401,7 @@
   },
   {
     "id": 163,
-    "title": "DON'T CUT",
+    "title": "DON’T CUT",
     "constants": {
       "oni": {
         "constant": 8.4,
@@ -3083,7 +3083,7 @@
   },
   {
     "id": 213,
-    "title": "夜想曲Op.9-2",
+    "title": "夜想曲Op.9－2",
     "constants": {
       "oni": {
         "constant": 8.6,
@@ -3478,7 +3478,7 @@
     "title": "明日も",
     "constants": {
       "oni": {
-        "constant": 3.5,
+        "constant": 4.0,
         "totalNotes": 397,
         "composite": 0.0,
         "avgDensity": 11.38,
@@ -3623,7 +3623,7 @@
   },
   {
     "id": 256,
-    "title": "めざせポケモンマスター -20th Anniversary-",
+    "title": "めざせポケモンマスター ‐20th Anniversary‐",
     "constants": {
       "oni": {
         "constant": 7.8,
@@ -3665,7 +3665,7 @@
   },
   {
     "id": 259,
-    "title": "The Magician's Dream",
+    "title": "The Magician’s Dream",
     "constants": {
       "oni": {
         "constant": 9.2,
@@ -3681,7 +3681,7 @@
   },
   {
     "id": 260,
-    "title": "魔方陣 -サモン・デルタ-",
+    "title": "魔方陣 ‐サモン・デルタ‐",
     "constants": {
       "oni": {
         "constant": 10.0,
@@ -4127,7 +4127,7 @@
   },
   {
     "id": 283,
-    "title": "初音ミクの消失-劇場版-",
+    "title": "初音ミクの消失‐劇場版‐",
     "constants": {
       "oni": {
         "constant": 10.0,
@@ -4635,7 +4635,7 @@
   },
   {
     "id": 315,
-    "title": "3Q-4U-AC00",
+    "title": "3Q‐4U‐AC00",
     "constants": {
       "oni": {
         "constant": 7.4,
@@ -5017,7 +5017,7 @@
   },
   {
     "id": 345,
-    "title": "ラーメン de Yo-Men!!",
+    "title": "ラーメン de Yo‐Men!!",
     "constants": {
       "oni": {
         "constant": 7.6,
@@ -6177,7 +6177,7 @@
   },
   {
     "id": 417,
-    "title": "Grip ＆ Break down !! -達人Edit.-",
+    "title": "Grip ＆ Break down !! ‐達人Edit.‐",
     "constants": {
       "oni": {
         "constant": 7.1,
@@ -7775,7 +7775,7 @@
   },
   {
     "id": 515,
-    "title": "DREAMERS' PARADISE",
+    "title": "DREAMERS’ PARADISE",
     "constants": {
       "oni": {
         "constant": 7.1,
@@ -7939,7 +7939,7 @@
   },
   {
     "id": 526,
-    "title": "Heaven's Rider",
+    "title": "Heaven’s Rider",
     "constants": {
       "oni": {
         "constant": 9.7,
@@ -8077,7 +8077,7 @@
   },
   {
     "id": 539,
-    "title": "Scream out！ -達人Edit.-",
+    "title": "Scream out！ ‐達人Edit.‐",
     "constants": {
       "oni": {
         "constant": 8.4,
@@ -8305,7 +8305,7 @@
   },
   {
     "id": 552,
-    "title": "EAT'EM UP！",
+    "title": "EAT’EM UP！",
     "constants": {
       "oni": {
         "constant": 9.2,
@@ -10353,7 +10353,7 @@
   },
   {
     "id": 714,
-    "title": "OK I'm blue rat",
+    "title": "OK I’m blue rat",
     "constants": {
       "oni": {
         "constant": 10.5,
@@ -10543,7 +10543,7 @@
   },
   {
     "id": 725,
-    "title": "零 -ZERO-",
+    "title": "零 ‐ZERO‐",
     "constants": {
       "oni": {
         "constant": 8.1,
@@ -10765,7 +10765,7 @@
   },
   {
     "id": 739,
-    "title": "KARMA(Tatsujin Mix)",
+    "title": "KARMA（Tatsujin Mix）",
     "constants": {
       "oni": {
         "constant": 9.3,
@@ -11095,7 +11095,7 @@
   },
   {
     "id": 762,
-    "title": "Toon Town's Toys' Tune",
+    "title": "Toon Town’s Toys’ Tune",
     "constants": {
       "oni": {
         "constant": 10.7,
@@ -11269,7 +11269,7 @@
   },
   {
     "id": 776,
-    "title": "GO GET'EM!",
+    "title": "GO GET’EM！",
     "constants": {
       "oni": {
         "constant": 9.5,
@@ -11825,7 +11825,7 @@
   },
   {
     "id": 818,
-    "title": "Don't Stop the Game",
+    "title": "Don’t Stop the Game",
     "constants": {
       "oni": {
         "constant": 10.8,
@@ -12057,7 +12057,7 @@
   },
   {
     "id": 835,
-    "title": "What's in the box？",
+    "title": "What’s in the box？",
     "constants": {
       "oni": {
         "constant": 10.6,
@@ -12295,7 +12295,7 @@
   },
   {
     "id": 858,
-    "title": "UFO Swingin'",
+    "title": "UFO Swingin’",
     "constants": {
       "oni": {
         "constant": 11.0,
@@ -13361,7 +13361,7 @@
   },
   {
     "id": 941,
-    "title": "Fly again!",
+    "title": "Fly again！",
     "constants": {
       "oni": {
         "constant": 8.0,
@@ -16283,7 +16283,7 @@
   },
   {
     "id": 1133,
-    "title": "Doppelgangers",
+    "title": "Doppelgängers",
     "constants": {
       "oni": {
         "constant": 8.7,
@@ -16593,7 +16593,7 @@
   },
   {
     "id": 1152,
-    "title": "Smile ＆ Go!!",
+    "title": "Smile & Go!!",
     "constants": {
       "oni": {
         "constant": 7.7,
@@ -20683,7 +20683,7 @@
   },
   {
     "id": 1393,
-    "title": "Ka. Ma. Se",
+    "title": "Ka.Ma.Se",
     "constants": {
       "oni": {
         "constant": 8.3,
@@ -21207,7 +21207,7 @@
   },
   {
     "id": 1422,
-    "title": "SORA-III ヘリオポーズ",
+    "title": "SORA-Ⅲ ヘリオポーズ",
     "constants": {
       "oni": {
         "constant": 8.7,
@@ -21843,7 +21843,7 @@
   },
   {
     "id": 1462,
-    "title": "コドモオトナヒーロー (feat. 竹ぱら, しなこ, リアピ)",
+    "title": "コドモオトナヒーロー (feat. 竹ぱら，しなこ，リアピ)",
     "constants": {
       "oni": {
         "constant": 5.0,
