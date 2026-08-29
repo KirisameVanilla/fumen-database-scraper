@@ -13286,22 +13286,6 @@
     }
   },
   {
-    "id": 937,
-    "title": "夜に駆ける",
-    "constants": {
-      "oni": {
-        "constant": 8.3,
-        "totalNotes": 483,
-        "composite": 36.5,
-        "avgDensity": 22.94,
-        "instDensity": 9.52,
-        "separation": 41.44,
-        "bpmChange": 0.0,
-        "hsChange": 0.0
-      }
-    }
-  },
-  {
     "id": 938,
     "title": "零の交響曲",
     "constants": {
