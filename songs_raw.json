@@ -12236,6 +12236,22 @@
     }
   },
   {
+    "id": 853,
+    "title": "ププッとフムッとかいけつダンス",
+    "constants": {
+      "oni": {
+        "constant": 3.5,
+        "totalNotes": 382,
+        "composite": 0.0,
+        "avgDensity": 9.51,
+        "instDensity": 1.88,
+        "separation": 0.31,
+        "bpmChange": 6.96,
+        "hsChange": 0.31
+      }
+    }
+  },
+  {
     "id": 855,
     "title": "タベテモタベテモ",
     "constants": {
@@ -21720,6 +21736,22 @@
     }
   },
   {
+    "id": 1454,
+    "title": "スパートシンドローマー",
+    "constants": {
+      "oni": {
+        "constant": 8.2,
+        "totalNotes": 478,
+        "composite": 6.24,
+        "avgDensity": 34.09,
+        "instDensity": 24.39,
+        "separation": 2.52,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
     "id": 1455,
     "title": "無敵的ハピネス！(SOS団5人Ver.)",
     "constants": {
@@ -21826,6 +21858,22 @@
     }
   },
   {
+    "id": 1461,
+    "title": "革命道中",
+    "constants": {
+      "oni": {
+        "constant": 7.5,
+        "totalNotes": 438,
+        "composite": 7.8,
+        "avgDensity": 25.89,
+        "instDensity": 17.03,
+        "separation": 0.68,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
     "id": 1462,
     "title": "コドモオトナヒーロー (feat. 竹ぱら，しなこ，リアピ)",
     "constants": {
@@ -21922,6 +21970,356 @@
         "separation": 0.0,
         "bpmChange": 0.19,
         "hsChange": 4.08
+      }
+    }
+  },
+  {
+    "id": 1468,
+    "title": "地獄の大王",
+    "constants": {
+      "oni": {
+        "constant": 9.7,
+        "totalNotes": 765,
+        "composite": 50.68,
+        "avgDensity": 37.68,
+        "instDensity": 19.9,
+        "separation": 14.84,
+        "bpmChange": 0.0,
+        "hsChange": 11.99
+      }
+    }
+  },
+  {
+    "id": 1490,
+    "title": "ハートにヒント！名探偵プリキュア！",
+    "constants": {
+      "oni": {
+        "constant": 5.5,
+        "totalNotes": 358,
+        "composite": 0.0,
+        "avgDensity": 18.33,
+        "instDensity": 16.34,
+        "separation": 8.18,
+        "bpmChange": 10.29,
+        "hsChange": 0.26
+      }
+    }
+  },
+  {
+    "id": 1491,
+    "title": "オーバーライド",
+    "constants": {
+      "oni": {
+        "constant": 9.7,
+        "totalNotes": 994,
+        "composite": 9.4,
+        "avgDensity": 55.64,
+        "instDensity": 42.22,
+        "separation": 0.31,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1492,
+    "title": "アイドルライフスターターパック",
+    "constants": {
+      "oni": {
+        "constant": 6.2,
+        "totalNotes": 376,
+        "composite": 0.0,
+        "avgDensity": 15.81,
+        "instDensity": 28.64,
+        "separation": 0.31,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      },
+      "ura": {
+        "constant": 8.6,
+        "totalNotes": 539,
+        "composite": 12.66,
+        "avgDensity": 32.47,
+        "instDensity": 28.64,
+        "separation": 4.09,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1493,
+    "title": "賜物",
+    "constants": {
+      "oni": {
+        "constant": 8.6,
+        "totalNotes": 301,
+        "composite": 9.69,
+        "avgDensity": 12.93,
+        "instDensity": 3.77,
+        "separation": 17.33,
+        "bpmChange": 7.72,
+        "hsChange": 1.28
+      }
+    }
+  },
+  {
+    "id": 1494,
+    "title": "好きすぎて滅！",
+    "constants": {
+      "oni": {
+        "constant": 5.0,
+        "totalNotes": 329,
+        "composite": 0.0,
+        "avgDensity": 10.76,
+        "instDensity": 3.95,
+        "separation": 16.98,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      },
+      "ura": {
+        "constant": 9.3,
+        "totalNotes": 658,
+        "composite": 43.48,
+        "avgDensity": 40.28,
+        "instDensity": 37.16,
+        "separation": 15.8,
+        "bpmChange": 0.0,
+        "hsChange": 2.77
+      }
+    }
+  },
+  {
+    "id": 1495,
+    "title": "ハッピーラッキーチャッピー",
+    "constants": {
+      "oni": {
+        "constant": 6.6,
+        "totalNotes": 266,
+        "composite": 0.0,
+        "avgDensity": 16.91,
+        "instDensity": 13.68,
+        "separation": 0.94,
+        "bpmChange": 5.86,
+        "hsChange": 2.74
+      }
+    }
+  },
+  {
+    "id": 1502,
+    "title": "鈍響ライクリフド",
+    "constants": {
+      "oni": {
+        "constant": 10.2,
+        "totalNotes": 1059,
+        "composite": 47.67,
+        "avgDensity": 62.35,
+        "instDensity": 49.23,
+        "separation": 32.72,
+        "bpmChange": 0.0,
+        "hsChange": 4.98
+      }
+    }
+  },
+  {
+    "id": 1503,
+    "title": "活声ライクリフド",
+    "constants": {
+      "oni": {
+        "constant": 10.4,
+        "totalNotes": 938,
+        "composite": 28.67,
+        "avgDensity": 50.11,
+        "instDensity": 60.95,
+        "separation": 28.1,
+        "bpmChange": 15.65,
+        "hsChange": 16.83
+      }
+    }
+  },
+  {
+    "id": 1504,
+    "title": "レナセールセレナーデ",
+    "constants": {
+      "oni": {
+        "constant": 7.7,
+        "totalNotes": 408,
+        "composite": 11.06,
+        "avgDensity": 22.54,
+        "instDensity": 18.22,
+        "separation": 7.39,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1505,
+    "title": "絵空事",
+    "constants": {
+      "oni": {
+        "constant": 8.5,
+        "totalNotes": 525,
+        "composite": 3.02,
+        "avgDensity": 39.01,
+        "instDensity": 35.49,
+        "separation": 0.31,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1506,
+    "title": "トンツカタンタン",
+    "constants": {
+      "oni": {
+        "constant": 7.2,
+        "totalNotes": 564,
+        "composite": 3.2,
+        "avgDensity": 24.31,
+        "instDensity": 18.84,
+        "separation": 1.26,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1507,
+    "title": "I am not Alice.",
+    "constants": {
+      "oni": {
+        "constant": 10.6,
+        "totalNotes": 872,
+        "composite": 57.36,
+        "avgDensity": 45.52,
+        "instDensity": 86.85,
+        "separation": 41.51,
+        "bpmChange": 0.0,
+        "hsChange": 5.71
+      }
+    }
+  },
+  {
+    "id": 1508,
+    "title": "おはよう！太鼓サマー",
+    "constants": {
+      "oni": {
+        "constant": 6.8,
+        "totalNotes": 422,
+        "composite": 2.4,
+        "avgDensity": 12.81,
+        "instDensity": 4.06,
+        "separation": 56.53,
+        "bpmChange": 12.43,
+        "hsChange": 0.19
+      }
+    }
+  },
+  {
+    "id": 1511,
+    "title": "シャニムニ花火",
+    "constants": {
+      "oni": {
+        "constant": 7.8,
+        "totalNotes": 461,
+        "composite": 12.6,
+        "avgDensity": 21.57,
+        "instDensity": 19.15,
+        "separation": 0.0,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1512,
+    "title": "恋の約束 -2025ver.-",
+    "constants": {
+      "oni": {
+        "constant": 8.9,
+        "totalNotes": 639,
+        "composite": 17.35,
+        "avgDensity": 37.5,
+        "instDensity": 35.95,
+        "separation": 3.14,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1513,
+    "title": "守護いスキっ！",
+    "constants": {
+      "oni": {
+        "constant": 9.5,
+        "totalNotes": 504,
+        "composite": 15.98,
+        "avgDensity": 40.21,
+        "instDensity": 46.28,
+        "separation": 3.03,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1516,
+    "title": "ほんまやで☆なんでやねん☆しらんけど",
+    "constants": {
+      "oni": {
+        "constant": 8.0,
+        "totalNotes": 594,
+        "composite": 25.78,
+        "avgDensity": 22.5,
+        "instDensity": 16.95,
+        "separation": 18.26,
+        "bpmChange": 0.0,
+        "hsChange": 0.57
+      }
+    }
+  },
+  {
+    "id": 1518,
+    "title": "ワールドイズマイン CPK! Remix (かぐや&月見ヤチヨ ver.)",
+    "constants": {
+      "oni": {
+        "constant": 8.3,
+        "totalNotes": 348,
+        "composite": 3.85,
+        "avgDensity": 13.92,
+        "instDensity": 4.6,
+        "separation": 15.72,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      },
+      "ura": {
+        "constant": 9.1,
+        "totalNotes": 480,
+        "composite": 31.18,
+        "avgDensity": 25.01,
+        "instDensity": 19.8,
+        "separation": 6.16,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
+      }
+    }
+  },
+  {
+    "id": 1519,
+    "title": "はちゃめちゃわちゃライフ！",
+    "constants": {
+      "oni": {
+        "constant": 7.9,
+        "totalNotes": 468,
+        "composite": 9.14,
+        "avgDensity": 37.6,
+        "instDensity": 21.52,
+        "separation": 0.31,
+        "bpmChange": 0.0,
+        "hsChange": 0.0
       }
     }
   }
