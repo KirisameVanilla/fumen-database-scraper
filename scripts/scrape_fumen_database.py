@@ -140,10 +140,40 @@ def parse_script_data(soup):
     return None
 
 
+def parse_first_number(text):
+    """从文本中提取第一个数字，支持整数和小数。"""
+    match = re.search(r"-?\d+(?:\.\d+)?", text)
+    if not match:
+        return None
+    return match.group(0)
+
+
+def extract_song_info_by_image(soup, image_src_keyword):
+    """根据 song_info 区域中 img 的 src 关键词，提取同一行的 p 标签文本。"""
+    song_info_div = soup.find("div", class_="song_info")
+    if not song_info_div:
+        return None
+
+    song_info_area = song_info_div.find("div", class_="song_info_area")
+    if not song_info_area:
+        return None
+
+    divs = song_info_area.find_all("div")
+    for div in divs:
+        img = div.find("img", src=lambda x: x and image_src_keyword in x)  # pyright: ignore[reportArgumentType]
+        if img:
+            p_tag = div.find("p")
+            if p_tag:
+                return p_tag.get_text(strip=True)
+            return None
+
+    return None
+
+
 def scrape_song_detail(url, error_log=None):
     """
     爬取单个歌曲详情页
-    提取 constant, totalNotes 和雷达图数据
+    提取 constant, totalNotes, rollSeconds 和雷达图数据
     """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -198,32 +228,35 @@ def scrape_song_detail(url, error_log=None):
 
         # 提取 totalNotes
         total_notes = None
-        song_info_div = soup.find("div", class_="song_info")
-        if song_info_div:
-            song_info_area = song_info_div.find("div", class_="song_info_area")
-            if song_info_area:
-                divs = song_info_area.find_all("div")
-                for div in divs:
-                    # 查找包含 title_combo 的 img
-                    img = div.find("img", src=lambda x: x and "title_combo" in x)  # pyright: ignore[reportArgumentType]
-                    if img:
-                        # 找到这个 div 中的 p 标签
-                        p_tag = div.find("p")
-                        if p_tag:
-                            notes_text = p_tag.get_text(strip=True)
-                            try:
-                                total_notes = int(notes_text)
-                            except ValueError:
-                                if error_log is not None:
-                                    error_log.append(
-                                        f"[{song_id}] 无法解析 totalNotes: {notes_text}"
-                                    )
-                        break
+        notes_text = extract_song_info_by_image(soup, "title_combo")
+        if notes_text:
+            try:
+                total_notes = int(notes_text)
+            except ValueError:
+                if error_log is not None:
+                    error_log.append(f"[{song_id}] 无法解析 totalNotes: {notes_text}")
+
+        # 提取 rollSeconds（连打秒数）
+        roll_seconds = None
+        roll_seconds_text = extract_song_info_by_image(soup, "title_rollTime")
+        if roll_seconds_text:
+            number_text = parse_first_number(roll_seconds_text)
+            if number_text is not None:
+                try:
+                    roll_seconds = float(number_text)
+                except ValueError:
+                    if error_log is not None:
+                        error_log.append(
+                            f"[{song_id}] 无法解析 rollSeconds: {roll_seconds_text}"
+                        )
+            elif error_log is not None:
+                error_log.append(f"[{song_id}] 无法解析 rollSeconds: {roll_seconds_text}")
 
         # 构建结果
         result = {
             "constant": constant,
             "totalNotes": total_notes,
+            "rollSeconds": roll_seconds,
             "composite": radar_data.get("radar_compound", None),
             "avgDensity": radar_data.get("radar_density_ave", None),
             "instDensity": radar_data.get("radar_density_inst", None),
