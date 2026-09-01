@@ -10,12 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      TARGET_BRANCH: ${{ github.ref_name }}
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-            ref: main
+          ref: ${{ env.TARGET_BRANCH }}
+          persist-credentials: true
         
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,7 +36,11 @@ jobs:
       - name: Check for changes
         id: check-diff
         run: |
-          if git diff --quiet songs.json; then
+          git add -- songs.json songs_raw.json
+          if [ -d history ]; then
+            git add --all -- history/
+          fi
+          if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -44,7 +51,5 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add songs.json songs_raw.json history/*
           git commit -m "chore: scrape songs data"
-          git push origin main
-
+          git push origin HEAD:"${TARGET_BRANCH}"
