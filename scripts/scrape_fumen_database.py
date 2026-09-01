@@ -173,7 +173,7 @@ def extract_song_info_by_image(soup, image_src_keyword):
 def scrape_song_detail(url, error_log=None):
     """
     爬取单个歌曲详情页
-    提取 constant, totalNotes, rollSeconds 和雷达图数据
+    提取 constant, totalNotes, rollSeconds, balloonCount 和雷达图数据
     """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -252,11 +252,24 @@ def scrape_song_detail(url, error_log=None):
             elif error_log is not None:
                 error_log.append(f"[{song_id}] 无法解析 rollSeconds: {roll_seconds_text}")
 
+        # 提取 balloonCount（气球数量）
+        balloon_count = None
+        balloon_count_text = extract_song_info_by_image(soup, "title_balloonNum")
+        if balloon_count_text:
+            try:
+                balloon_count = int(balloon_count_text)
+            except ValueError:
+                if error_log is not None:
+                    error_log.append(
+                        f"[{song_id}] 无法解析 balloonCount: {balloon_count_text}"
+                    )
+
         # 构建结果
         result = {
             "constant": constant,
             "totalNotes": total_notes,
             "rollSeconds": roll_seconds,
+            "balloonCount": balloon_count,
             "composite": radar_data.get("radar_compound", None),
             "avgDensity": radar_data.get("radar_density_ave", None),
             "instDensity": radar_data.get("radar_density_inst", None),
